@@ -32,3 +32,36 @@ pip install -r requirements.txt
 # Run migrations and start server
 python manage.py migrate
 python manage.py runserver
+```
+
+
+### Frontend (React)
+
+The frontend of this project is built using **React** with **Vite** for fast development. It is located in the `frontend/` directory.
+
+#### To run the frontend:
+
+```bash
+cd frontend
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+```
+
+
+### Project Structure
+
+```bash
+django-schedulify/
+├── backend/                # Django backend app
+├── frontend/               # React frontend
+│   ├── src/
+│   ├── public/
+│   └── package.json
+├── .gitignore
+├── README.md
+└── manage.py
+```
