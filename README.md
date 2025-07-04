@@ -57,7 +57,10 @@ npm run dev
 ```bash
 django-schedulify/
 ├── backend/                # Django backend app
-│   └── manage.py
+│   ├──  manage.py
+│   ├── api/
+│   ├── mojprojekt/
+│   └── db.sqlite3
 ├── frontend/               # React frontend
 │   ├── src/
 │   ├── public/
